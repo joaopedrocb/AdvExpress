@@ -1,0 +1,48 @@
+#app{
+  text-align: center;
+  background: url(../images/background-app.png)
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+
+}
+
+span.swiper-pagination-bullet{
+  background-color: #771600;
+  opacity: 1;
+  height: 12px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  height: 20px;
+  background-color: #ca2904;
+}
+
+#app h3{
+  padding-top: 100px;
+}
+
+#app p{
+  padding-top: 20px;
+  font-family: Lato-Italic;
+  color: #7C7E7F;
+}
+
+.img-baixeagora{
+  padding: 10px;
+}
+
+
+

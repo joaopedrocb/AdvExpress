@@ -1,0 +1,13 @@
+#footer{
+	di
+}
+
+.footer-background{
+    background: url(../images/background-contato.png) no-repeat;
+}
+
+.footer-background img{
+    padding-top: 100px;
+    padding-right: 28%;
+    padding-left: 28%;
+}

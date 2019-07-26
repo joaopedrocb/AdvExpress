@@ -1,0 +1,127 @@
+.carousel-indicators .active {
+    background-color: #e02d04;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+    border-radius: 100%;
+}
+.carousel-indicators  li {
+    background-color: white ;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100% ;   
+}
+
+ol.carousel-indicators{
+    z-index: 1000;
+}
+
+.carousel-item .img-banner{
+    height: 100vh;
+}
+
+/* Elementos que estao presentes no banner */
+
+.container{
+    position: relative;
+}
+
+.elemento-container{
+    position: absolute;
+    transform: translate(-30%,-130%);
+}
+
+.container2{
+    position: relative;
+}
+
+.elemento2-container{
+    position: absolute;
+    transform: translate(-30%,-320%);
+    font-family: Lato-Hairline;
+    
+}
+
+.container3{
+    position: relative;
+    z-index: 50;
+}
+
+.elemento3-container{
+    position: absolute !important;
+    transform: translate(17%,40%);
+}
+
+.container4{
+    position: relative;
+}
+
+.elemento4-container{
+    position: absolute;
+    transform: translate(39%,15%);
+}
+
+.container5{
+    position: relative;
+}
+
+.elemento5-container{
+    position: absolute;
+    transform: translate(-35%,-160%);
+    font-family: Lato-Black;
+}
+
+.container6{
+    position: relative;
+}
+
+.elemento6-container{
+    position: absolute;
+    transform: translate(-19%,-40%);
+}
+
+.container7{
+    position: relative;
+}
+
+.elemento7-container{
+    position: absolute;
+    transform: translate(-37%,-40%);
+}
+
+/* /Elementos que estao presentes no banner */
+
+@media screen and (max-width: 768px){
+
+    .carousel-item .img-banner{
+        height: 70vh;
+        width: 100%;
+    }
+
+    .elemento3-container{
+        width: 100%;
+        
+        transform: translate(-10%, 60%);
+    }
+
+    .elemento4-container{
+        width: 100%;
+        
+        transform: translate(5%, 30%);
+
+    }
+
+    .elemento6-container{
+        transform: translate(-17%, -120%);
+    }
+
+    .elemento7-container{
+        transform: translate(-37%, -120%);
+    }
+
+
+
+}
+
+
+

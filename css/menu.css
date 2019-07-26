@@ -1,0 +1,119 @@
+/* Menu CSS */
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-menu{
+    width: 100%;
+}
+
+ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: Lato-Medium;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+ul li a{
+    color: rgb(211,210,213);
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: #E5574C;
+    text-decoration: none;
+}
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    color: rgb(211,210,213);
+    box-sizing: border-box;
+    font-size: 30px;
+    display: none;
+}
+
+.menu-logo{
+    margin-right: 100px;
+}
+
+.social-logos{
+    color: rgb(211,210,213);
+    padding: 5px;
+}
+
+#responsive-menu{
+    border-bottom: 1px solid rgb(148,141,152);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    font-size: 14px;
+    
+}
+
+
+/* Media Screen(s) */
+
+@media screen and (max-width: 836px){
+    .toggle{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+        display: none;
+    }
+
+    ul li{
+        display: block;
+        text-align: center;
+    }
+
+    .menu-logo{
+        display: none;
+    }
+
+    .img-cellphone{
+        content: url(../images/logo_advexpress.png);
+        margin-bottom: -50px;
+    }
+
+    .active{
+        display: block;
+        
+    }
+
+    .active2{
+        background-color: rgba(34,34,34,0.7);
+    }
+}
+
+.active-menu{
+    background-color: rgba(34,34,34,0.7);
+}
+
+.active-logo{
+    display: none;
+}
+
+.active-teste{
+    padding-top: 12px;
+    font-size: px;
+    font-family: Lato-Semibold;
+}
+

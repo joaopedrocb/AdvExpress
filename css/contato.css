@@ -1,0 +1,40 @@
+#contato{
+    text-align: center;
+    padding-top: 80px;
+}
+
+div.input-contato1{
+    align-items: center;
+    float: center;
+    padding-top: 30px;
+}
+
+div.input-contato1 input{
+    border-bottom: solid 3px #ca2904;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 25vw;
+    text-align: center;
+    color: #8e8e8e;
+    font-family: Lato-Semibold;
+    outline: 0;
+}
+
+div.input-contato2{
+    align-items: center;
+    float: center;
+    padding-top: 30px;
+}
+
+div.input-contato2 input{
+    border-bottom: solid 3px #ca2904;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 50vw;
+    text-align: center;
+    color: #8e8e8e;
+    font-family: Lato-Semibold;
+    outline: 0;
+}
